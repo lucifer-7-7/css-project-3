@@ -184,12 +184,12 @@ html, body{
   }
   #image-content::-webkit-scrollbar {
     background-color: transparent;
-    height: 5px;
+    height: 0px;
   }
   
-  #image-content::-webkit-scrollbar-thumb {
+  /* #image-content::-webkit-scrollbar-thumb {
     background-color: orangered;
-  }
+  } */
   
 @media (max-width: 767px) {
     #nav{
