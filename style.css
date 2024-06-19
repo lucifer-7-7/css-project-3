@@ -234,7 +234,8 @@ html, body{
         font-family:Poppins;
     }
     #content{
-        height: calc(100% - 162 px);
+        /* height: calc(100% - 190px); */
+        height:64%;
     }
     #text-c{
         height: 35%;
