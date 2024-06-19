@@ -193,7 +193,7 @@ html, body{
   
 @media (max-width: 767px) {
     #nav{
-        height: 40px;
+        height: 50px;
         width: 100%;
         /* background: #ff0000; */
         padding: 0 20px; 
@@ -224,7 +224,7 @@ html, body{
         background: #000; 
         }
     #nav-2{
-        height: 50px;
+        height: 60px;
         gap:10px;
         padding: 0 20px;
     }
@@ -234,8 +234,7 @@ html, body{
         font-family:Poppins;
     }
     #content{
-        /* height: calc(100% - 190px); */
-        height:64%;
+        height: calc(100% - 114px);
     }
     #text-c{
         height: 35%;
@@ -244,7 +243,7 @@ html, body{
     }
     #text-c::-webkit-scrollbar{
         background-color: transparent;
-        height: 4px;
+        height:4px;
     }
     #text-c::-webkit-scrollbar-thumb{
         background-color: orangered;
@@ -252,13 +251,14 @@ html, body{
     }
     .elements{
         height: 80%;
-        width: 100%;
+        width: fit-content;
     }
     .elements h1{
-        font-size: 11vh;
+        font-size: 12vh;
         font-weight:900;
         font-family: gilroy;
         white-space: nowrap;
+        margin-right: 20px;
     }
     .elements h2 {
         align-self: flex-start;
